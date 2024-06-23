@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+body{
+    font-family: "Aboreto", system-ui;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+}
+h1{
+    margin-bottom: 40px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fff;
+    color: black;
+}
